@@ -63,6 +63,6 @@ Get doctor appointments of specific day example body:
 ### Others
 
 Application has created JUnit testing of services and repositories of application.
-
+IDE used for implementation is Intelij.
 For more info write to me via email: 
 wwesolowski97@gmail.com :)
