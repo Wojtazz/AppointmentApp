@@ -20,20 +20,20 @@ spring.datasource.url=jdbc:postgresql://127.0.0.1:5432/appointmentdata
 
 Application provides three endpoints:
 
-Create appointment
+Create appointment:
 ```
 http://localhost:8081/customers/createAppointment
 ```
-Cancel appointment
+Cancel appointment:
 ```
 http://localhost:8081/customers/cancelAppointment
 ```
-Get doctor appointments at specific day
+Get doctor appointments at specific day:
 ```
 http://localhost:8081/appointments/doctorAppointments
 ```
 
-Create appointment example body to send to create appointment
+Create appointment example body to send to create appointment:
 ```
 {
     "customerId" : "0001",
@@ -44,7 +44,7 @@ Create appointment example body to send to create appointment
     }
 }
 ```
-Cancel appointment example body to cancel created appointment before
+Cancel appointment example body to cancel created appointment before:
 ```
 {
     "customerId" : "0001",
@@ -52,7 +52,7 @@ Cancel appointment example body to cancel created appointment before
     "appointmentDate": "2020-04-12T14:12Z"
 }
 ```
-Get doctor appointments of specific day example body
+Get doctor appointments of specific day example body:
 ```
 {
     "doctorId": "0001",
