@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.wwesolowski</groupId>
-	<artifactId>dieteticApplication</artifactId>
+	<artifactId>AppointmentApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dieteticApplication</name>
-	<description>Application for dieteticians</description>
+	<name>AppointmentApp</name>
+	<description>Appointments application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
