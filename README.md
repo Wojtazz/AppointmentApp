@@ -13,18 +13,25 @@ Application is based on Spring boot, Hibernate and Rest Api and uses Postgres SQ
 To connect to database you need to create database named "appointmentdata" on server postgres. 
 
 Connection string:
-  `spring.datasource.url=jdbc:postgresql://127.0.0.1:5432/appointmentdata`
-
+```
+spring.datasource.url=jdbc:postgresql://127.0.0.1:5432/appointmentdata
+```
 # Endpoints
 
 Application provides three endpoints:
 
 Create appointment
-`http://localhost:8081/customers/createAppointment`
+```
+http://localhost:8081/customers/createAppointment
+```
 Cancel appointment
-`http://localhost:8081/customers/cancelAppointment`
+```
+http://localhost:8081/customers/cancelAppointment
+```
 Get doctor appointments at specific day
-`http://localhost:8081/appointments/doctorAppointments`
+```
+http://localhost:8081/appointments/doctorAppointments
+```
 
 Create appointment example body to send to create appointment
 ```
